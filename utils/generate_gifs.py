@@ -11,11 +11,6 @@ def find_gifs():
 
 def create_gif(gif_name):
     frames = glob(f"raw_diagram_exports/{gif_name}*")
-    images = []
-    # for filename in frames:
-        # images.append(imageio.imread(filename))
-    # imageio.mimsave(f'images/{gif_name}.gif', images, duration="1500")
-
     with imageio.get_writer(f'images/{gif_name}.gif', mode='I', duration=1.5) as writer:
         for filename in frames:
             image = imageio.imread(filename)
