@@ -5,7 +5,9 @@
   - vocab
   - 1-hot encoding
   - word embeddings
+- introduce and explore huggingface
 - visualise BERT embeddings
+- complete word analogies
 
 ## What is a tokeniser?
 
