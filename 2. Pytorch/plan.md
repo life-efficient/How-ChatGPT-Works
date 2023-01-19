@@ -1,3 +1,10 @@
+## Aims
+
+- understand what a torch tensor is
+- understand that pytorch lets you do automatic differentiation using .backward
+- program a linear regression model in pytorch
+- program a training loop in pytorch
+
 - torch tensors
 - how are they different from other numbers in pytorch?
 

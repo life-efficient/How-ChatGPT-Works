@@ -1,3 +1,12 @@
+## Aims
+
+- explain
+  - tokeniser
+  - vocab
+  - 1-hot encoding
+  - word embeddings
+- visualise BERT embeddings
+
 ## What is a tokeniser?
 
 ## TODO diagram

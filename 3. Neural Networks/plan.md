@@ -1,3 +1,14 @@
+## Aims
+
+- understand that a neural network is a
+- understand that neural networks build hierarchical representations
+- understand that neural networks learn their own representations
+- understand that nns can approximate any continuous function
+- build a neural network in pytorch
+- introduce torch.nn.module
+- train a neural network in pytorch
+- explain that there are many other layers
+
 ## Motivation
 
 -

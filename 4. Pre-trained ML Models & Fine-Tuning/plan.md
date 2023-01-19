@@ -1,3 +1,13 @@
+## Aim
+
+- understand what pre-trained models are
+- get a pre-trained model from huggingface
+- demonstrate using several huggingface models
+
+- introduce resnet50 as a common backbone
+- demonstrate how to fine-tune the model to your dataset using weight freezing
+- demonstrate how to fine-tune the model to your dataset using discriminative learning rates
+
 ## intro to huggingface
 
 - show pre-trained models
