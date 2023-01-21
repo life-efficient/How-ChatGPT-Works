@@ -1,5 +1,9 @@
 # TODO image of transformer model performance compared to others
 
+- attention is all you need paper
+
+https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+
 # TODO table of benchmark results populated with mostly transformers
 
 # Various transformer configurations
