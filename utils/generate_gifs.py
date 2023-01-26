@@ -1,10 +1,10 @@
 import imageio
 from glob import glob
 
-START_DIR = "raw_diagram_exports"
+START_DIR = "figma_diagram_exports"
 
 def find_gifs():
-    gif_files = glob(f"{START_DIR}/*-*.png")
+    gif_files = glob(f"./{START_DIR}/*-*.png")
     print(gif_files)
     gif_names = set(["-".join(fp.split("/")[-1].split("-")[:-1]) for fp in gif_files])
     print(gif_names)
@@ -16,10 +16,12 @@ def create_gif(gif_name):
     frames.sort()
     frames.reverse()
     frames.pop(0) # remove first file, which is the master component
-    with imageio.get_writer(f'images/{gif_name}.gif', mode='I', duration=1.5) as writer:
+    gif_name = f'images/{gif_name}.gif'
+    with imageio.get_writer(gif_name, mode='I', duration=1.5) as writer:
         for filename in frames:
             image = imageio.imread(filename)
             writer.append_data(image)
+    print("Generated:", gif_name)
 
 
 if __name__ == "__main__":
