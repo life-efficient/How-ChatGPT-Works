@@ -1,0 +1,5 @@
+- description: |+
+    Find a pre-trained sentiment analysis model on HuggingFace and use it to classify 
+
+  id:
+  name: Using Pre-trained Sentiment Analysis Model

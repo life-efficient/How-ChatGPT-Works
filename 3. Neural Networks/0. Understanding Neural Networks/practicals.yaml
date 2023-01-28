@@ -1,0 +1,5 @@
+- description: |+
+    Train a 2 layer neural network with a gradually decreasing layer width (all powers of 2) on the MNIST dataset
+
+  id:
+  name: MNIST NN
