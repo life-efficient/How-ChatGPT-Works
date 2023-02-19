@@ -1,0 +1,5 @@
+- download GPT, GPT2, BERT base and find out how many layers of transformer blocks they have
+- fine-tune bert
+- pass an input through GPT and visualise its attention weights
+- Print out and compare the different modules of GPT, GPT2, GPT-J, BERT-base, BERT-Large, T5, RoBERTa
+- write a function to count the number of parameters in a model, then call it on GPT, GPT2, GPT-J BERT-base, BERT-large, T5, RoBERTa. Be careful of running out of memory if you run this on your local machine, some of these models are huge!
